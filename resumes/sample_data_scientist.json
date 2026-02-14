@@ -1,0 +1,113 @@
+{
+  "contact": {
+    "name": "Maria Chen",
+    "email": "maria.chen@email.com",
+    "phone": "(555) 987-6543",
+    "location": "New York, NY",
+    "linkedin": "linkedin.com/in/mariachen"
+  },
+  "summary": "Data scientist with 4 years of experience in machine learning, statistical modelling, and data-driven product development. Skilled at translating complex analytical findings into actionable business recommendations.",
+  "experience": [
+    {
+      "title": "Senior Data Scientist",
+      "company": "FinanceAI Corp",
+      "location": "New York, NY",
+      "start_date": "Mar 2023",
+      "end_date": "Present",
+      "bullets": [
+        "Developed credit risk model using gradient boosting that reduced default losses by $12M annually",
+        "Built NLP pipeline for automated document classification, processing 100K+ documents/month with 94% accuracy",
+        "Led A/B testing framework redesign, enabling product team to run 3x more experiments per quarter",
+        "Presented model performance dashboards to C-suite executives, influencing $5M budget allocation"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "company": "RetailTech Solutions",
+      "location": "New York, NY",
+      "start_date": "Jul 2021",
+      "end_date": "Feb 2023",
+      "bullets": [
+        "Built demand forecasting model using LSTM networks, reducing inventory waste by 18%",
+        "Designed customer segmentation pipeline using k-means clustering on 5M+ customer records",
+        "Created automated reporting system using Python and Tableau, saving 10 hours/week of analyst time",
+        "Implemented recommendation engine that increased cross-sell revenue by 22%"
+      ]
+    },
+    {
+      "title": "Data Analyst",
+      "company": "ConsultCo",
+      "location": "Boston, MA",
+      "start_date": "Jun 2020",
+      "end_date": "Jun 2021",
+      "bullets": [
+        "Performed statistical analysis on marketing campaign data for Fortune 500 clients",
+        "Built interactive dashboards in Tableau and Power BI for client presentations",
+        "Automated data cleaning workflows using Python, reducing preparation time by 60%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "M.S. in Statistics",
+      "institution": "Columbia University",
+      "location": "New York, NY",
+      "graduation_date": "May 2020",
+      "gpa": "3.9",
+      "details": [
+        "Thesis: Bayesian approaches to time-series anomaly detection in financial data"
+      ]
+    },
+    {
+      "degree": "B.S. in Mathematics",
+      "institution": "University of Michigan",
+      "location": "Ann Arbor, MI",
+      "graduation_date": "May 2018",
+      "gpa": "3.8",
+      "details": []
+    }
+  ],
+  "skills": [
+    "Python",
+    "R",
+    "SQL",
+    "PyTorch",
+    "TensorFlow",
+    "scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Spark",
+    "Tableau",
+    "A/B Testing",
+    "Statistical Modelling",
+    "NLP",
+    "Time Series Analysis",
+    "Deep Learning",
+    "AWS SageMaker",
+    "Docker",
+    "Git"
+  ],
+  "projects": [
+    {
+      "name": "SentimentScope",
+      "description": "Real-time social media sentiment analysis dashboard",
+      "technologies": ["Python", "Transformers", "FastAPI", "React"],
+      "bullets": [
+        "Fine-tuned BERT model on domain-specific data achieving 91% F1 score",
+        "Built streaming pipeline to process 10K tweets/min with sub-second latency"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Machine Learning Specialty",
+      "issuer": "Amazon Web Services",
+      "date": "2023"
+    },
+    {
+      "name": "TensorFlow Developer Certificate",
+      "issuer": "Google",
+      "date": "2021"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resume-customizer"
+version = "0.1.0"
+description = "Customize resumes from a bank to match job descriptions using LLM"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.39.0",
+    "pydantic>=2.0",
+    "fpdf2>=2.7",
+    "click>=8.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.23",
+]
+
+[project.scripts]
+resume-customizer = "resume_customizer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,110 @@
+{
+  "contact": {
+    "name": "Alex Johnson",
+    "email": "alex.johnson@email.com",
+    "phone": "(555) 123-4567",
+    "location": "San Francisco, CA",
+    "linkedin": "linkedin.com/in/alexjohnson",
+    "website": "alexjohnson.dev"
+  },
+  "summary": "Full-stack software engineer with 6 years of experience building scalable web applications and distributed systems. Passionate about clean architecture, performance optimisation, and mentoring junior developers.",
+  "experience": [
+    {
+      "title": "Senior Software Engineer",
+      "company": "TechCorp Inc.",
+      "location": "San Francisco, CA",
+      "start_date": "Jan 2022",
+      "end_date": "Present",
+      "bullets": [
+        "Led migration of monolithic Rails application to microservices architecture using Go and gRPC, reducing p99 latency by 40%",
+        "Designed and implemented real-time event processing pipeline handling 50K events/sec using Kafka and Flink",
+        "Mentored team of 4 junior engineers through code reviews, pair programming, and architecture discussions",
+        "Introduced comprehensive CI/CD pipeline with automated testing, reducing deployment failures by 60%",
+        "Collaborated with product managers to define technical requirements for new features serving 2M+ users"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "StartupXYZ",
+      "location": "San Francisco, CA",
+      "start_date": "Jun 2019",
+      "end_date": "Dec 2021",
+      "bullets": [
+        "Built customer-facing dashboard using React and TypeScript, increasing user engagement by 35%",
+        "Developed RESTful APIs in Python/FastAPI serving 10K requests/min with 99.9% uptime",
+        "Implemented automated data pipeline using Airflow for ETL processes, reducing manual work by 20 hours/week",
+        "Optimised PostgreSQL queries and added Redis caching, improving API response times by 3x",
+        "Participated in on-call rotation and resolved production incidents with minimal customer impact"
+      ]
+    },
+    {
+      "title": "Junior Software Developer",
+      "company": "WebSolutions LLC",
+      "location": "Austin, TX",
+      "start_date": "Aug 2018",
+      "end_date": "May 2019",
+      "bullets": [
+        "Developed responsive web applications using React, Node.js, and MongoDB",
+        "Wrote unit and integration tests achieving 85% code coverage",
+        "Contributed to internal developer tools that improved team productivity"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. in Computer Science",
+      "institution": "University of Texas at Austin",
+      "location": "Austin, TX",
+      "graduation_date": "May 2018",
+      "gpa": "3.7",
+      "details": [
+        "Dean's List — 6 semesters",
+        "Relevant coursework: Distributed Systems, Database Systems, Machine Learning, Algorithms"
+      ]
+    }
+  ],
+  "skills": [
+    "Python",
+    "Go",
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "FastAPI",
+    "PostgreSQL",
+    "Redis",
+    "Kafka",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "Terraform",
+    "CI/CD",
+    "gRPC",
+    "REST APIs",
+    "Git",
+    "Linux"
+  ],
+  "projects": [
+    {
+      "name": "OpenTracer",
+      "description": "Open-source distributed tracing library for Python microservices",
+      "technologies": ["Python", "OpenTelemetry", "gRPC"],
+      "bullets": [
+        "Built lightweight tracing SDK with auto-instrumentation for FastAPI and Flask",
+        "Gained 500+ GitHub stars and adopted by 3 companies in production"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "date": "2023"
+    },
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "CNCF",
+      "date": "2022"
+    }
+  ]
+}
