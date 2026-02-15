@@ -8,6 +8,26 @@ from fpdf import FPDF
 
 from .models import Resume
 
+# Characters outside latin-1 that the built-in Helvetica font can't render
+_UNICODE_REPLACEMENTS = {
+    "\u2014": "-",   # em dash
+    "\u2013": "-",   # en dash
+    "\u2018": "'",   # left single quote
+    "\u2019": "'",   # right single quote
+    "\u201c": '"',   # left double quote
+    "\u201d": '"',   # right double quote
+    "\u2026": "...", # ellipsis
+    "\u2022": "-",   # bullet
+}
+
+
+def _sanitize(text: str) -> str:
+    """Replace unicode chars unsupported by built-in PDF fonts."""
+    for char, replacement in _UNICODE_REPLACEMENTS.items():
+        text = text.replace(char, replacement)
+    return text
+
+
 # Layout constants (mm)
 PAGE_W = 210
 MARGIN_LEFT = 15
@@ -51,13 +71,13 @@ class ResumePDF(FPDF):
         style = "B" if bold else ""
         self.set_font("Helvetica", style, BODY_SIZE)
         self.set_text_color(*BLACK)
-        self.multi_cell(w=CONTENT_W, h=5, text=text)
+        self.multi_cell(w=CONTENT_W, h=5, text=_sanitize(text))
 
     def _small_text(self, text: str, italic: bool = False) -> None:
         style = "I" if italic else ""
         self.set_font("Helvetica", style, SMALL_SIZE)
         self.set_text_color(*DARK_GREY)
-        self.multi_cell(w=CONTENT_W, h=4.5, text=text)
+        self.multi_cell(w=CONTENT_W, h=4.5, text=_sanitize(text))
 
     def _bullet(self, text: str) -> None:
         self.set_font("Helvetica", "", BODY_SIZE)
@@ -65,7 +85,7 @@ class ResumePDF(FPDF):
         bullet_indent = 5
         self.set_x(MARGIN_LEFT + bullet_indent)
         # Use a dash as bullet since standard fonts lack bullet char
-        self.multi_cell(w=CONTENT_W - bullet_indent, h=5, text=f"- {text}")
+        self.multi_cell(w=CONTENT_W - bullet_indent, h=5, text=f"- {_sanitize(text)}")
 
 
 def generate_pdf(resume: Resume, output_path: Path | str) -> Path:
@@ -88,7 +108,7 @@ def generate_pdf(resume: Resume, output_path: Path | str) -> Path:
     pdf.set_font("Helvetica", "B", NAME_SIZE)
     pdf.set_text_color(*BLACK)
     pdf.cell(
-        w=CONTENT_W, h=10, text=resume.contact.name, align="C",
+        w=CONTENT_W, h=10, text=_sanitize(resume.contact.name), align="C",
         new_x="LMARGIN", new_y="NEXT",
     )
 
@@ -107,7 +127,7 @@ def generate_pdf(resume: Resume, output_path: Path | str) -> Path:
         pdf.set_font("Helvetica", "", SMALL_SIZE)
         pdf.set_text_color(*DARK_GREY)
         pdf.cell(
-            w=CONTENT_W, h=5, text="  |  ".join(contact_parts), align="C",
+            w=CONTENT_W, h=5, text=_sanitize("  |  ".join(contact_parts)), align="C",
             new_x="LMARGIN", new_y="NEXT",
         )
     pdf.ln(2)

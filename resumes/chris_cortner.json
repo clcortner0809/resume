@@ -1,0 +1,70 @@
+{
+  "contact": {
+    "name": "Chris Cortner",
+    "email": "christopher_cortner@berkeley.edu",
+    "phone": "(978) 886-3861",
+    "location": "Berkeley, CA",
+    "linkedin": "linkedin.com/in/chriscortner/"
+  },
+  "summary": "",
+  "experience": [
+    {
+      "title": "Production Designer & Set Designer (Contract)",
+      "company": "Film & Television Production",
+      "location": "Los Angeles, CA",
+      "start_date": "2017",
+      "end_date": "2025",
+      "bullets": [
+        "Role Progression: Leadman Set Designer (2023-2025) | Senior Set Designer (2022-2023) | Set Designer (2020-2022) | Junior Set Designer (2018-2020) | Assistant Art Director (2017-2018)",
+        "Select Credits: The Odyssey (Universal), One Battle After Another (Warner Bros.), Harry Potter Series (Warner Bros.), Ghostbusters: Afterlife (Sony), Red One (Amazon Studios), The Residence (Netflix), Moana - Live Action (Disney), The Batman (Warner Bros./DC Studios), Air (Amazon Studios), Babylon (Paramount)",
+        "Revamped $2M creative installation by analyzing stakeholder requirements and regulatory constraints, successfully repositioning the design proposal to secure director approval and protect the $50M production timeline",
+        "Aligned end-to-end operation with strict budgetary constraints by conducting a competitive analysis of fabrication alternatives and vendor capabilities, delivering a 66% cost reduction through strategic negotiation",
+        "Accelerated production timelines during the writers' strike by spearheading the adoption of VR technology to visualize complex designs, reducing approval timelines by 30% and enhancing cross-functional collaboration",
+        "Improved production workflows and cost structures across 15+ studio productions by identifying operational inefficiencies and technology adoption opportunities, informing departmental investment strategy",
+        "Bridged operational silos between global Design and Visual Effects teams by establishing standardized cross-functional asset conversion protocols, saving 250+ redundant labor hours and preventing duplicative work",
+        "Fostered collaborative creative culture with executive stakeholders including Christopher Nolan by pioneering advanced visualization technologies, building authentic engagement in the design process and creative vision",
+        "Facilitated remote decision-making for non-technical executive stakeholders by developing VR environments using real-time site data to visualize complex concepts, accelerating design consensus and approval timelines",
+        "Ensured immediate delivery of an $8M capital project upon approval by structuring a parallel workflow where designers developed detailed concepts pending authorization, achieving final delivery 10% under budget",
+        "Mentored designers and engineers by developing personal workflows into shared templates and forming standardized frameworks, improving department-wide proficiency and expediting delivery timelines",
+        "Unblocked downstream teams dependent on critical path assets through a phased delivery strategy to provide minimum viable assets, catalyzing immediate production work while refining quality standards in parallel",
+        "Identified opportunities to standardize repeatable components, consolidating design work to eliminate redundancies across team and allowing bulk procurement economies, increasing team efficiency by 15%",
+        "Increased team output capacity without additional headcount by developing an AI-assisted automation framework to complete two builds in the time of one, accelerating future work by 160%",
+        "Mitigated impact of late-stage design changes on production schedules by implementing LLM-powered Python automation for design workflows, reducing drawing update cycles by 75%"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Business Administration",
+      "institution": "University of California, Berkeley, Haas School of Business",
+      "location": "Berkeley, CA",
+      "graduation_date": "May 2027",
+      "gpa": "",
+      "details": [
+        "Co-President of Digital Media & Entertainment Club, VP of Admissions for Queer @ Haas, VP of Running Club",
+        "Project Manager for AI Summit, Member of Haas Consulting Club, Communications Rep for MBA Cohort"
+      ]
+    },
+    {
+      "degree": "Bachelor of Science, Architecture",
+      "institution": "University of Virginia",
+      "location": "Charlottesville, VA",
+      "graduation_date": "May 2017",
+      "gpa": "",
+      "details": [
+        "Honors, Business Manager of The Virginia Gentlemen, Design Assistant for Drama Department, Teaching Assistant"
+      ]
+    }
+  ],
+  "skills": [
+    "Adobe Creative Cloud",
+    "Python (automation)",
+    "Tableau",
+    "Alteryx",
+    "Rhinoceros 3D",
+    "Unreal Engine",
+    "Blender"
+  ],
+  "projects": [],
+  "certifications": []
+}

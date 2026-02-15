@@ -1,0 +1,71 @@
+{
+  "contact": {
+    "name": "Chris Cortner",
+    "email": "christopher_cortner@berkeley.edu",
+    "phone": "(978) 886-3861",
+    "location": "Berkeley, CA",
+    "linkedin": "linkedin.com/in/chriscortner/",
+    "website": ""
+  },
+  "summary": "MBA candidate at UC Berkeley Haas with 8 years of experience in entertainment production, combining deep creative industry expertise with cross-functional project management, go-to-market storytelling, and stakeholder engagement. Proven track record driving adoption of immersive technologies (VR/3D/AI) across 15+ major studio productions. Passionate about gaming, interactive media, and building community-driven creative platforms.",
+  "experience": [
+    {
+      "title": "Production Designer & Set Designer (Contract)",
+      "company": "Film & Television Production",
+      "location": "Los Angeles, CA",
+      "start_date": "2017",
+      "end_date": "2025",
+      "bullets": [
+        "Select Credits: The Odyssey (Universal), Harry Potter Series (Warner Bros.), The Batman (Warner Bros./DC Studios), Moana - Live Action (Disney), Red One (Amazon Studios), Ghostbusters: Afterlife (Sony) — 6x Art Directors Guild Award nominee/winner",
+        "Revamped $2M creative installation by analyzing stakeholder requirements and audience impact, repositioning the design proposal to secure executive approval and protect the $50M production timeline",
+        "Spearheaded adoption of VR and real-time 3D visualization technology to communicate complex creative concepts to non-technical stakeholders, reducing approval timelines by 30% and accelerating cross-functional collaboration",
+        "Bridged operational silos between global Design and Visual Effects teams by establishing standardized cross-functional asset conversion protocols, saving 250+ redundant labor hours across distributed teams",
+        "Facilitated remote decision-making for executive stakeholders by developing immersive VR environments using real-time data, accelerating design consensus across global production teams",
+        "Fostered collaborative creative culture with executive stakeholders including Christopher Nolan by pioneering advanced visualization technologies, building authentic engagement in the creative vision",
+        "Delivered $8M capital project 10% under budget by structuring parallel workflows and coordinating cross-functional teams pending executive authorization",
+        "Increased team output capacity by 160% without additional headcount by developing an AI-assisted automation framework, demonstrating technology adoption strategy",
+        "Aligned end-to-end operations with strict budgetary constraints through competitive vendor analysis, delivering 66% cost reduction via strategic negotiation",
+        "Mentored designers and engineers by converting personal workflows into shared templates and standardized frameworks, improving department-wide proficiency"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Business Administration",
+      "institution": "University of California, Berkeley, Haas School of Business",
+      "location": "Berkeley, CA",
+      "graduation_date": "May 2027",
+      "gpa": "",
+      "details": [
+        "Co-President of Digital Media & Entertainment Club — organizing industry events and creator community engagement",
+        "Project Manager for AI Summit — led cross-functional team to plan and execute campus-wide technology conference",
+        "Member of Haas Consulting Club, Communications Rep for MBA Cohort"
+      ]
+    },
+    {
+      "degree": "Bachelor of Science, Architecture",
+      "institution": "University of Virginia",
+      "location": "Charlottesville, VA",
+      "graduation_date": "May 2017",
+      "gpa": "",
+      "details": [
+        "Honors, Business Manager of The Virginia Gentlemen, Design Assistant for Drama Department, Teaching Assistant"
+      ]
+    }
+  ],
+  "skills": [
+    "Go-to-Market Strategy",
+    "Cross-Functional Project Management",
+    "Storytelling & Content Development",
+    "Stakeholder Engagement",
+    "Unreal Engine",
+    "Blender",
+    "Adobe Creative Cloud",
+    "VR/3D Visualization",
+    "Python (automation)",
+    "Tableau",
+    "Alteryx"
+  ],
+  "projects": [],
+  "certifications": []
+}
